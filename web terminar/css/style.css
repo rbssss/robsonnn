@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, monospace;
+}
+
+nav {
+    background-color:black;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+main ul {
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+main ul li {
+    background-color: rgb(235, 232, 226);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 30px;
+}
+
+ main ul li:hover {
+    background-color: black;
+    color: rgb(243, 242, 239);
+}
+
+nav {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+nav h1 img {
+    width: 190px;
+}
+
+h1 {
+    float: left;
+}
+
+h1 a {
+    float: left;
+}
+
+ul#menu {
+    float: right;
+    padding-top: 30px;
+
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+    padding: 35px 15px;
+    float: left;
+}
+
+ul li a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+ul li a {
+
+    background-color: rgb(240, 238, 234);
+    color: black;
+    padding: 6px 26px;
+    border: 4px solid transparent;
+    
+
+}
+
+ nav ul li a:hover {
+
+    background-color: rgb(17, 15, 13);
+    color: lavender;
+    border: 4px solid  rgb(7, 6, 6);
+
+}
+
+footer {
+
+    background-color: black;
+    color: rgb(255, 255, 254);
+    padding: 22px;
+    clear: both;
+    
+}
+ 
+
+
+
+header img {
+
+width: 100%;
+border: 4px solid honeydew;
+
+height: 240px;
+object-fit: cover;
+
+}
+
+.clearfix {
+
+    overflow: auto;
+
+}
+
+.clearfix::after{
+
+    content: "" ;
+    clear: both;
+    display: table;
+}
+
+
+
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+[class*=col-] {
+    float: left;
+    padding: 5px;
+}
+
+main img {
+    width: 100%;    
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select { 
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 6px;
+    border: 1px solid red;
+    outline: none;
+    resize: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    background-color: rgb(146, 179, 179);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+div .cam1{
+    margin-top: 50px;
+}
+.cms2{
+    width: 520px;
+}
+.cms55{
+    width: 200px;
+}
+.cam2{
+    width: 400px;
+}
+
+.cam3{
+    width: 500px;
+}
+.CAM11{
+    width: 500px;
+}
+.mund1{
+    width: 405px;
+}
+.cam4{
+    width: 500px  ;
+}
